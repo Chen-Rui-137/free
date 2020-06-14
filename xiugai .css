@@ -1,0 +1,24 @@
+/*
+* @Author: 诸葛钢筋
+* @Date:   2020-05-16 23:12:36
+* @Last Modified by:   Chen-Rui-137
+* @Last Modified time: 2020-05-31 17:50:28
+*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+ul,li,ol{
+  list-style-type: none;
+}
+
+.clear :after{
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
